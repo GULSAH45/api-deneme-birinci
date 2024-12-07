@@ -1,0 +1,110 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f9ff;
+  background-image: url("https://www.transparenttextures.com/patterns/snow.png"); /* Kar tanesi dokusu */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+}
+
+/* Başlık Alanı */
+header {
+  background-color: #d32f2f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-family: "Pacifico", cursive;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Ana Alan */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Kart Stili */
+.card {
+  background-color: white;
+  border: 2px solid #4caf50;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "🎄";
+  font-size: 4rem;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  opacity: 0.2;
+  transform: rotate(15deg);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #d32f2f;
+}
+
+.section {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section i {
+  margin-right: 8px;
+  color: #4caf50;
+}
+
+.section span {
+  font-weight: bold;
+  color: #d32f2f;
+}
+
+/* Link Stil */
+.section a {
+  text-decoration: none;
+  color: #1976d2;
+}
+
+.section a:hover {
+  text-decoration: underline;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+header::after {
+  content: "❄️ Happy New Year! ❄️";
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-style: italic;
+  color: #fff8e1;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
