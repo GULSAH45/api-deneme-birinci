@@ -24,18 +24,10 @@
               <i class="fa fa-phone"></i>
               <span>Phone:</span> ${user.phone}
             </div>
-            <div class="section">
-              <i class="fa fa-location-dot"></i>
-              <span>Address:</span> ${user.address.street}, ${user.address.city}
-            </div>
-            <div class="section">
-              <i class="fa fa-building"></i>
-              <span>Company:</span> ${user.company.name}
-            </div>
-            <div class="section">
-              <i class="fa fa-globe"></i>
-              <span>Website:</span> <a href="http://${user.website}" target="_blank">${user.website}</a>
-            </div>
+
+<div class="section">
+           <a class="btn btn-danger" href="user-details.html?userId=${user.id}">More Information</a>
+</div>
           </div>
         `;
     });

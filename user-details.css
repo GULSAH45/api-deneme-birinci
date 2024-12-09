@@ -1,7 +1,7 @@
 body {
   font-family: "Arial", sans-serif;
   background-color: #f4f9ff;
-  background-image: url("https://www.transparenttextures.com/patterns/snow.png"); /* Kar tanesi dokusu */
+  background-image: url("https://www.transparenttextures.com/patterns/snow.png");
   margin: 0;
   padding: 0;
   display: flex;
@@ -10,7 +10,6 @@ body {
   color: #333;
 }
 
-/* Başlık Alanı */
 header {
   background-color: #d32f2f;
   color: white;
@@ -27,18 +26,20 @@ header h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Ana Alan */
 main {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   padding: 20px;
   width: 100%;
 }
+a {
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
 
-/* Kart Stili */
 .card {
+  text-decoration: none;
   background-color: white;
   border: 2px solid #4caf50;
   border-radius: 12px;
@@ -48,6 +49,7 @@ main {
   text-align: center;
   position: relative;
   overflow: hidden;
+  -moz-text-decoration-color: #b3b3b3;
 }
 
 .card::before {
@@ -65,14 +67,6 @@ main {
   color: #d32f2f;
 }
 
-.section {
-  margin-bottom: 12px;
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .section i {
   margin-right: 8px;
   color: #4caf50;
@@ -83,7 +77,6 @@ main {
   color: #d32f2f;
 }
 
-/* Link Stil */
 .section a {
   text-decoration: none;
   color: #4caf50;
