@@ -10,7 +10,6 @@ body {
   color: #333;
 }
 
-/* Başlık Alanı */
 header {
   background-color: #d32f2f;
   color: white;
@@ -27,7 +26,6 @@ header h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Ana Alan */
 main {
   display: flex;
   flex-wrap: wrap;
@@ -37,7 +35,16 @@ main {
   width: 100%;
 }
 
-/* Kart Stili */
+input {
+  color: #d32f2f;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
 .card {
   background-color: white;
   border: 2px solid #4caf50;
@@ -83,7 +90,6 @@ main {
   color: #d32f2f;
 }
 
-/* Link Stil */
 .section a {
   text-decoration: none;
   color: #4caf50;
