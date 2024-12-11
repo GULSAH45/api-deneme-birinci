@@ -39,6 +39,7 @@ const fetchUserDetails = async () => {
             </div>
         
         `;
+
     userDetails.innerHTML = userCard;
   } catch (error) {
     console.error("Veriler alınırken bir hata oluştu:", error);

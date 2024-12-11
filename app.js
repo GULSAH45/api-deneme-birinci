@@ -28,6 +28,12 @@
 <div class="section">
            <a class="btn btn-danger" href="user-details.html?userId=${user.id}">More Information</a>
 </div>
+
+<div class="section">
+           <a class="btn btn-danger" href="posts.html?postId=${user.id}">GO Post</a>
+</div>
+
+
           </div>
         `;
     });
@@ -76,7 +82,7 @@ document
    </div>
  `;
       })
-      .join(""); // Tüm kartları birleştirmek için join eklenmeli.
+      .join(""); // Tüm kartları birleştirmek için join ek
 
     document.querySelector("#user-container").innerHTML = userCards; // Sonuçları ekrana yazdırıyoruz.
   });
